@@ -1,4 +1,3 @@
- #Solicitar la edad al usuario
 edad = int(input("Ingresa tu edad: "))
 
 # Verificar si es mayor de edad
@@ -11,17 +10,8 @@ else:
 
 
 
-contraseña_guardada = "alder"
-contraseña_ingresada = input("ingrese tu maldita  contraseña: ")
 
-if contraseña_ingresada.lower() == contraseña_guardada:
-    print("tu maldita contraseña es correcta")
-else:
-    print("La contraseña es incorrecta por manco")
-
-
-
-numero = int(input("Ingresa un número entero positivo como tu hermano: "))
+numero = int(input("Ingresa un número entero positivo: "))
 
 if numero <= 0:
     print("El número ingresado no es válido. Debe ser un número entero positivo.")
@@ -30,3 +20,19 @@ else:
     cuenta_regresiva = list(map(str, cuenta_regresiva))
     cuenta_regresiva = ",".join(cuenta_regresiva)
     print(cuenta_regresiva)
+
+
+
+
+
+
+
+
+
+contraseña_guardada ="contraseña"
+contraseña_ingresada = input("Ingresa la contraseña: ")
+
+if contraseña_ingresada.lower() == contrasena_guardada:
+    print("La contraseña es correcta")
+else:
+    print("La contraseña es incorrecta"
