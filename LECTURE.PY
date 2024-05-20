@@ -82,3 +82,44 @@ for i in range(len(letras)):
     for j in range(i+1):
       linea+=letra[I]
       print(linea)
+
+
+condiciones=true
+while condiciones:
+   eval=imput("desea continuar [S/N]:")
+   if eval=="S"
+    print("continuas en el bucle")
+    continue
+   else:
+       print("se termino el pograma")
+       condicones=false
+       break
+   
+
+
+
+contador=0
+white contador<=5:
+  print(contador)
+  contador+=1
+  prin(f"valor final [contador]")
+
+
+  nombre"jose"
+  nombre.upper() #convierteel texto en mayusculas 
+
+  apellido="apellidos"
+  print(apellido.lower()) #convierte la primera letra en mayuscula
+
+  #crear un programa que pida la cantidad de notas que se deve registrar 
+  #luego me dira las notas e imprimira el promedio 
+  num_notas = int(input("Ingrese la cantidad de notas a registrar: "))
+suma_notas = 0
+
+white i in range(num_notas):
+    nota = float(input(f"Ingrese la nota {i + 1}: "))
+    suma_notas += nota
+
+promedio = suma_notas / num_notas
+
+print("\nEl promedio de las notas ingresadas es: ", promedio)
